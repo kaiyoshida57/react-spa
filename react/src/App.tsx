@@ -39,18 +39,18 @@ function App() {
       <h1>ReactでSPAの練習サイト</h1>
 
       <nav>
-        <NavLink to="/react-spa/" end>
+        <NavLink to="./" end>
           Home
         </NavLink>
-        <NavLink to="/react-spa/about">About</NavLink>
-        <NavLink to="/react-spa/news">News</NavLink>
+        <NavLink to="./about">About</NavLink>
+        <NavLink to="./news">News</NavLink>
       </nav>
 
       <div id="content">
         <SlideRoutes animation="slide" duration={300}>
-          <Route path="/react-spa/" element={<Home />} />
-          <Route path="/react-spa/about" element={<About />} />
-          <Route path="/react-spa/news" element={<News />} />
+          <Route path="./" element={<Home />} />
+          <Route path="./about" element={<About />} />
+          <Route path="./news" element={<News />} />
         </SlideRoutes>
       </div>
     </>

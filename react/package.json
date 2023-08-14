@@ -2,7 +2,7 @@
   "name": "react",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://kaiyoshida57.github.io/react-spa",
+  "homepage": "./",
   "type": "module",
   "scripts": {
     "dev": "vite",
