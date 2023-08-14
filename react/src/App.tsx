@@ -1,4 +1,3 @@
-// import { useState } from 'react';
 import { Route, NavLink } from 'react-router-dom';
 import SlideRoutes from 'react-slide-routes';
 
@@ -24,7 +23,7 @@ const About = () => (
 );
 const News = () => (
   <div className="card news">
-    <h2 className="heading">news ニュース</h2>
+    <h2 className="heading">News ニュース</h2>
     <p className="text">
       <strong>Newsページです。</strong>
       <br />
